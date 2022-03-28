@@ -1,6 +1,7 @@
 package br.com.victor.fernandes.pw3hasfoodapi.enums;
 
-@
-public enum StatusEnum {
 
+public enum StatusEnum {
+ATIVO,
+INATIVO,
 }
