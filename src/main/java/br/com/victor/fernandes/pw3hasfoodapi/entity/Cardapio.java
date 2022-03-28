@@ -11,14 +11,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name=TBL_CARDAPIO)
+@Table(name="TBL_CARDAPIO")
 public class Cardapio {
 
-	@Id
-	@Column (name=ID_CARDAPIO)
+	@Column (name="ID_CARDAPIO")
 	private long idCardapio;
 	
-	@Id
-	@Column(name=ID_RESTAURANTE)
+	@Column(name="ID_RESTAURANTE")
 	private long idRestaurante;
 }
